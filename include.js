@@ -749,7 +749,14 @@ let cards = [
 		imageLink: "./Art/haider/sun-moon.gif",
 		author: "Haider",
 		githubLink: "https://github.com/hyderumer"
-	}
+  },
+  {
+    artName: "sudarshan-chakra",
+    pageLink: "./Art/Sudarshan-chakra/index.html",
+    imageLink: "./Art/sudarshan-chakra/chakra.gif",
+    author: "Mohit",
+    githubLink: "https://github.com/Mohitbisht3031"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
