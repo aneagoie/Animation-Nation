@@ -1,0 +1,30 @@
+.at-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+.at-item {
+  color: purple;
+  animation-name: focus-in-contract;
+  animation-duration: 3.8s;
+  animation-timing-function: ease-out;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-fill-mode: none;
+  font-family: 'Dancing Script', cursive;
+  font-family: 'Monoton', cursive;
+  font-size: 3em;
+}
+@keyframes focus-in-contract {
+  0%{
+    letter-spacing: 0.8em;
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100%{
+    filter: blur(0);
+    opacity: 1;
+  }
+}
