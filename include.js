@@ -1,6 +1,13 @@
 let cards = [
   //  Add your card in this section
   {
+      artName: "Animix",
+      pageLink: "./Art/Joy/faded_animation.html",
+      imageLink: "./Art/Joy/triangle.gif",
+      author: "Aman",
+      githubLink: "https://github.com/sahuaman83"
+  },
+  {
     artName: "ZTM Animation",
     pageLink: "./Art/EricPuskas/index.html",
     imageLink: "./Art/EricPuskas/index.gif",
