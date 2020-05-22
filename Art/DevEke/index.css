@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  align-items: center;
+  justify-content: center;
+
+}
+
+#container {
+  height: 500px;
+  width: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#planet {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background: black;
+  z-index: 1;
+  position: absolute;
+}
+
+#moon {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background: #4EBAD6;
+  position: relative;
+  z-index: 2;
+  animation-name: revolve;
+  animation-duration:  1s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+@keyframes revolve {
+  0%   {top: -100px; left: -100px; z-index: 2; height: 50px; width: 50px;}
+  10%  {top: -100px; left: -80px; z-index: 0; height: 45px; width: 45px;}
+  20%  {top: -80px; left: -40px; z-index: 0; height: 40px; width: 40px;}
+  30%  {top: 40px; left: 80px; z-index: 0; height: 40px; width: 40px;}
+  40%  {top: 80px; left: 100px; z-index: 0; height: 45px; width: 45px;}
+  50%  {top: 100px; left: 100px; z-index: 0; height: 50px; width: 50px;}
+  60%  {top: 100px; left: 80px; z-index: 2; height: 55px; width: 55px;}
+  70%  {top: 80px; left: 40px; z-index: 2; height: 60px; width: 60px;}
+  80%  {top: -40px; left: -80px; z-index: 2; height: 60px; width: 60px;}
+  90%  {top: -80px; left: -100px; z-index: 2; height: 55px; width: 55px;}
+  100% {top: -100px; left: -100px; z-index: 2; height: 50px; width: 50px;}
+}
