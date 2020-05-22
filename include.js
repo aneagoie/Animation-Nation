@@ -749,7 +749,14 @@ let cards = [
 		imageLink: "./Art/haider/sun-moon.gif",
 		author: "Haider",
 		githubLink: "https://github.com/hyderumer"
-	}
+	},
+  {
+    artName: "Blue-Moon",
+    pageLink: "./Art/DevEke/index.html",
+    imageLink: "./Art/DevEke/blue-moon.gif",
+    author: "Chris Eke",
+    githubLink: "https://github.com/DevEke"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
