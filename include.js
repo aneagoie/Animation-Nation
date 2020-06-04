@@ -749,7 +749,14 @@ let cards = [
 		imageLink: "./Art/haider/sun-moon.gif",
 		author: "Haider",
 		githubLink: "https://github.com/hyderumer"
-	}
+  },
+  {
+    artName: "Tape-Recorder",
+    pageLink: "./Art/Pavittar/index.html",
+    imageLink: "./Art/Pavittar/TapeRecorder.gif",
+    author: "Pavittar Kumar Azad",
+    githubLink: "https://github.com/PavittarKumar"
+  }
 ];
 
 // +--------------------------------------------------------------------------------+
