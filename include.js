@@ -749,7 +749,15 @@ let cards = [
 		imageLink: "./Art/haider/sun-moon.gif",
 		author: "Haider",
 		githubLink: "https://github.com/hyderumer"
-	}
+  },
+  {
+		artName: "blinking-dog",
+		pageLink: "./Art/gergatron/index.html",
+		imageLink: "./Art/gergatron/ztm--animation.gif",
+		author: "Gergatron",
+		githubLink: "https://github.com/gergatron"
+  },
+  
 ];
 
 // +--------------------------------------------------------------------------------+
