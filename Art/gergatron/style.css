@@ -1,0 +1,34 @@
+@keyframes example {
+  0% {
+    background-color: red;
+  }
+  25% {
+    background-color: yellow;
+  }
+  50% {
+    background-color: blue;
+  }
+  100% {
+    background-color: green;
+  }
+}
+#annoying-dog {
+  position: relative;
+  width: calc(20 * 20px);
+  height: calc(19 * 20px);
+  margin: 13% auto;
+  animation-name: example;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+#annoying-dog::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 20px;
+  height: 20px;
+  box-shadow: 40px 0 #000, 80px 0 #000, 100px 0 #000, 120px 0 #000, 140px 0 #000, 180px 0 #000, 20px 20px #000, 60px 20px #000, 160px 20px #000, 200px 20px #000, 20px 40px #000, 200px 40px #000, 20px 60px #000, 220px 60px #000, 360px 60px #000, 0 80px #000, 60px 80px #000, 120px 80px #000, 240px 80px #000, 340px 80px #000, 380px 80px #000, 0 100px #000, 260px 100px #000, 280px 100px #000, 340px 100px #000, 380px 100px #000, 0 120px #000, 80px 120px #000, 100px 120px #000, 300px 120px #000, 320px 120px #000, 340px 120px #000, 380px 120px #000, 0 140px #000, 40px 140px #000, 80px 140px #000, 140px 140px #000, 380px 140px #000, 0 160px #000, 60px 160px #000, 80px 160px #000, 100px 160px #000, 120px 160px #000, 380px 160px #000, 0 180px #000, 380px 180px #000, 0 200px #000, 380px 200px #000, 0 220px #000, 380px 220px #000, 0 240px #000, 380px 240px #000, 0 260px #000, 360px 260px #000, 20px 280px #000, 360px 280px #000, 20px 300px #000, 80px 300px #000, 100px 300px #000, 160px 300px #000, 180px 300px #000, 200px 300px #000, 220px 300px #000, 280px 300px #000, 300px 300px #000, 360px 300px #000, 20px 320px #000, 60px 320px #000, 100px 320px #000, 160px 320px #000, 220px 320px #000, 280px 320px #000, 300px 320px #000, 340px 320px #000, 40px 340px #000, 100px 340px #000, 140px 340px #000, 220px 340px #000, 260px 340px #000, 320px 340px #000, 120px 360px #000, 240px 360px #000;
+}
+
